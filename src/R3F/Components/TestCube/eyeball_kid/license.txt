@@ -1,0 +1,8 @@
+Model Information:
+* title:	EYEBALL KID
+* source:	https://sketchfab.com/3d-models/eyeball-kid-d99d9181b1fe40fe993dadfa2c0fd691
+* author:	bruno_sales (https://sketchfab.com/bruno_sales)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
