@@ -1,14 +1,7 @@
-import {
-  Box,
-  OrbitControls,
-  PerspectiveCamera,
-  Sphere,
-} from "@react-three/drei";
-import { Canvas, useFrame } from "@react-three/fiber";
-import React, { useEffect, useLayoutEffect } from "react";
+import { OrbitControls } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
-import TestCube from "./Components/TestCube";
 gsap.registerPlugin(useGSAP);
 
 type Props = {};

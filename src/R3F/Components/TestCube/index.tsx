@@ -1,19 +1,13 @@
 import { useGSAP } from "@gsap/react";
-import { Box } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import React, { useState } from "react";
 import gsap from "gsap";
-import { useGLTF } from "@react-three/drei";
 
 type Props = {};
 
 function TestCube({}: Props) {
   const boxRef = React.useRef<any>();
   const [isReady, setIsReady] = useState(false);
-
-  const eyeKid = useGLTF(
-    "medusa-link-tree/src/R3F/Components/TestCube/eyeball_kid/scene.gltf"
-  );
 
   useFrame(() => {
     if (boxRef.current && !isReady) {
